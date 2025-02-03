@@ -24,3 +24,10 @@ do {
 responses++;
  console.log (`responses Collected: ${responses}`);
 }while (responses<3);
+
+// Task 5 Employee Information For In Loop //
+let Employee ={
+    name: "Alice", 
+    position : "manager", 
+    salary: "75,000"
+}; for (let key in Employee) { console.log (`${key}: ${Employee}[key]`)};
