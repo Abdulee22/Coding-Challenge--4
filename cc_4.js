@@ -35,3 +35,9 @@ let Employee ={
 // Task 6 Product Listings for of Loop //
 let products = ["laptop","mouse","keybored"];
 for (let product of products) {console.log(`product:${product}`)}
+
+// Task 7 Order Processing forEach() Method //
+let orders = [ 101 ,102 ,103 ];
+orders.forEach(order => {
+    console.log (`Order Id:${order}`)
+});
