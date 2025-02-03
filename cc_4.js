@@ -31,3 +31,7 @@ let Employee ={
     position : "manager", 
     salary: "75,000"
 }; for (let key in Employee) { console.log (`${key}: ${Employee}[key]`)};
+
+// Task 6 Product Listings for of Loop //
+let products = ["laptop","mouse","keybored"];
+for (let product of products) {console.log(`product:${product}`)}
