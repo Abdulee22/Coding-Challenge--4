@@ -46,3 +46,9 @@ orders.forEach(order => {
 function calculateTax (amount, taxrate)
 {return amount * taxrate;
 } console.log (`Tax Amount : $${calculateTax(100,.07)}`);
+
+// Task 9 Discount Application Function Expressions //
+const applyDiscount = function (price, discountpercentage)
+{return price - (price * (discountpercentage/100))};
+let discountedPrice = applyDiscount (120/15)
+console.log (`Discounted price: $${discountedPrice}`)
