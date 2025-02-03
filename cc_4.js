@@ -17,3 +17,10 @@ while (stock > 0) {
     console.log(`Stock remaining: ${stock}`); 
 stock--; }
 console.log("Depletion");
+
+// task 4 Customer Survey Do...While Loop //
+let responses = 0;
+do {
+responses++;
+ console.log (`responses Collected: ${responses}`);
+}while (responses<3);
